@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPHU DANWAL Sp. z o.o. – Producent wyrobów gumowych i gumowo-metalowych</title>
+  <meta name="description" content="PPHU DANWAL – producent wyrobów gumowych i gumowo-metalowych z Kraśnika. Element mocujący patent nr 248 477. Zapytania ofertowe.">
+  <link rel="canonical" href="https://danwal.pl/">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://danwal.pl/">
+  <meta property="og:title" content="PPHU DANWAL Sp. z o.o. – Producent wyrobów gumowych i gumowo-metalowych">
+  <meta property="og:description" content="PPHU DANWAL – producent wyrobów gumowych i gumowo-metalowych z Kraśnika. Element mocujący patent nr 248 477. Zapytania ofertowe.">
+  <meta property="og:locale" content="pl_PL">
+  <meta property="og:site_name" content="PPHU DANWAL Sp. z o.o.">
+  <meta property="og:image" content="https://danwal.pl/static/patent.webp">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PPHU DANWAL Sp. z o.o. – Producent wyrobów gumowych i gumowo-metalowych">
+  <meta name="twitter:description" content="PPHU DANWAL – producent wyrobów gumowych i gumowo-metalowych z Kraśnika. Element mocujący patent nr 248 477.">
+  <meta name="twitter:image" content="https://danwal.pl/static/patent.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+  <style>
+    :root { --color-bg:#0f172a; --color-surface:#1e293b; --color-surface-elevated:#334155; --color-text:#f1f5f9; --color-text-muted:#94a3b8; --color-accent:#f97316; --color-accent-dim:#ea580c; --font-sans:'IBM Plex Sans',system-ui,sans-serif; --font-mono:'IBM Plex Mono',monospace; --max-width:720px; --spacing:1.5rem; --radius:4px; }
+    *,*::before,*::after{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:var(--font-sans);font-size:1rem;line-height:1.65;color:var(--color-text);background:var(--color-bg)}
+    .container{max-width:var(--max-width);margin:0 auto;padding:0 var(--spacing)}
+    header{background:var(--color-surface);border-bottom:1px solid var(--color-surface-elevated);padding:2rem 0}
+    header .container{display:flex;flex-direction:column;gap:.5rem}
+    .logo{font-family:var(--font-sans);font-size:1.4rem;font-weight:700;color:var(--color-text);letter-spacing:.02em}
+    .tagline{font-size:.9rem;color:var(--color-text-muted);font-weight:500}
+    .hero{padding:3.5rem 0 2.5rem;background:var(--color-surface);border-bottom:2px solid var(--color-accent)}
+    .hero h1{font-family:var(--font-sans);font-size:clamp(1.6rem,4vw,2rem);font-weight:700;color:var(--color-text);margin:0 0 .5rem;line-height:1.3;letter-spacing:.01em}
+    .hero .lead{font-size:1.05rem;color:var(--color-text-muted);margin:0;max-width:38ch}
+    section{padding:2rem 0}
+    section:nth-child(even){background:var(--color-surface)}
+    h2{font-family:var(--font-sans);font-size:1.25rem;font-weight:600;color:var(--color-accent);margin:0 0 1rem;text-transform:uppercase;letter-spacing:.08em}
+    p{margin:0 0 1rem} p:last-child{margin-bottom:0}
+    ul{margin:0 0 1rem;padding-left:1.25rem} li{margin-bottom:.5rem} li:last-child{margin-bottom:0}
+    .product-card{background:var(--color-surface-elevated);border:1px solid rgba(249,115,22,.25);border-left:4px solid var(--color-accent);border-radius:var(--radius);padding:1.5rem;margin:1.5rem 0}
+    .product-card h3{font-family:var(--font-sans);font-size:1.1rem;font-weight:600;color:var(--color-accent);margin:0 0 .75rem}
+    .product-card ul{margin-bottom:0} .product-card ul+ul{margin-top:1rem}
+    .patent-badge{display:inline-block;font-family:var(--font-mono);font-size:.75rem;font-weight:500;color:var(--color-accent);background:var(--color-bg);padding:.3rem .6rem;border-radius:2px;margin-bottom:1rem;border:1px solid rgba(249,115,22,.3)}
+    .carousel{position:relative;max-width:420px;margin:1.5rem auto;border-radius:var(--radius);overflow:hidden;border:1px solid var(--color-surface-elevated)}
+    .carousel-track{display:flex;transition:transform .3s ease}
+    .carousel-slide{min-width:100%;cursor:pointer}
+    .carousel-slide img{width:100%;height:auto;display:block;vertical-align:top}
+    .lightbox{display:none;position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.95);align-items:center;justify-content:center;padding:2rem}
+    .lightbox.open{display:flex}
+    .lightbox-content{position:relative;max-width:95vw;max-height:90vh;display:flex;align-items:center;justify-content:center}
+    .lightbox-content img{max-width:100%;max-height:90vh;object-fit:contain}
+    .lightbox-close{position:absolute;top:-2.5rem;right:0;width:2.5rem;height:2.5rem;border:none;background:transparent;color:#fff;font-size:2rem;cursor:pointer;line-height:1;opacity:.8}
+    .lightbox-close:hover{opacity:1}
+    .lightbox-btn{position:absolute;top:50%;transform:translateY(-50%);width:3rem;height:3rem;border:none;border-radius:50%;background:rgba(255,255,255,.2);color:#fff;font-size:1.5rem;cursor:pointer;display:flex;align-items:center;justify-content:center}
+    .lightbox-btn:hover{background:rgba(255,255,255,.4)}
+    .lightbox-btn.prev{left:1rem}.lightbox-btn.next{right:1rem}
+    .carousel-btn{position:absolute;top:50%;transform:translateY(-50%);width:2.5rem;height:2.5rem;border:none;border-radius:50%;background:var(--color-surface);color:var(--color-accent);cursor:pointer;font-size:1.25rem;line-height:1;box-shadow:0 2px 8px rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center}
+    .carousel-btn:hover{background:var(--color-accent);color:var(--color-bg)}
+    .carousel-btn.prev{left:.5rem}.carousel-btn.next{right:.5rem}
+    .carousel-dots{display:flex;justify-content:center;gap:.5rem;padding:.75rem;background:var(--color-surface-elevated)}
+    .carousel-dot{width:8px;height:8px;border-radius:50%;border:none;background:rgba(255,255,255,.2);cursor:pointer}
+    .carousel-dot.active{background:var(--color-accent);transform:scale(1.2)}
+    .carousel-gallery{display:flex;justify-content:center;gap:.5rem;margin-top:1rem}
+    .carousel-gallery img{width:64px;height:64px;object-fit:cover;border-radius:2px;border:2px solid var(--color-surface-elevated);cursor:pointer}
+    .carousel-gallery img:hover,.carousel-gallery img.active{border-color:var(--color-accent)}
+    .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem}
+    .why-item{background:var(--color-surface-elevated);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:1.25rem;font-size:.95rem}
+    .why-item strong{display:block;color:var(--color-accent);font-size:.9rem;margin-bottom:.25rem}
+    .contact-block{background:var(--color-surface-elevated);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:1.5rem;margin-top:1rem}
+    .contact-block p{margin:.25rem 0}
+    .contact-block a{color:var(--color-accent);text-decoration:none;font-weight:500}
+    .contact-block a:hover{text-decoration:underline}
+    .contact-cta{margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.08);color:var(--color-text-muted);font-size:.95rem}
+    footer{padding:2rem 0;border-top:1px solid var(--color-surface-elevated);color:var(--color-text-muted);font-size:.9rem}
+    footer .container{display:flex;flex-direction:column;gap:.5rem}
+    .nav-sticky{position:sticky;top:0;z-index:50;background:var(--color-surface);border-bottom:1px solid var(--color-surface-elevated);padding:.75rem 0;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+    .nav-sticky .container{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.5rem 1.25rem}
+    @media(min-width:768px){.nav-sticky .container{flex-wrap:nowrap}}
+    .nav-sticky a{padding:.35rem .6rem;font-size:.9rem;font-weight:500;color:var(--color-text-muted);text-decoration:none;border-radius:2px;white-space:nowrap;transition:color .2s,background .2s}
+    .nav-sticky a:hover{color:var(--color-accent);background:var(--color-surface-elevated)}
+    @media(min-width:600px){:root{--spacing:2rem}.hero{padding:4rem 0 3rem}section{padding:2.5rem 0}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://danwal.pl/#organization",
+        "name": "PPHU \"DANWAL\" Sp. z o.o.",
+        "description": "Producent wyrobów gumowych i gumowo-metalowych z Kraśnika. Element mocujący patent nr 248 477.",
+        "url": "https://danwal.pl/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ul. Sienkiewicza 58",
+          "addressLocality": "Kraśnik",
+          "postalCode": "23-204",
+          "addressCountry": "PL"
+        },
+        "telephone": "+48603748277",
+        "email": "danwal.sapula@gmail.com",
+        "taxID": "715-020-10-28",
+        "areaServed": "PL",
+        "priceRange": "$$"
+      },
+      {
+        "@type": "Product",
+        "name": "Element mocujący",
+        "description": "Uchwyt opatentowany w Urzędzie Patentowym RP nr 248 477 – uniwersalne mocowanie przedmiotów z samoczynnym zaciskiem. Zastosowanie: mocowanie różnego rodzaju przedmiotów, uchwyty do broni i sprzętu sportowego, motoryzacja, gospodarstwo domowe, warsztat.",
+        "brand": { "@type": "Brand", "name": "PPHU DANWAL" },
+        "manufacturer": { "@id": "https://danwal.pl/#organization" },
+        "additionalProperty": { "@type": "PropertyValue", "name": "Numer patentu", "value": "248 477" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header><div class="container"><div class="logo">PPHU "DANWAL" Sp. z o.o.</div><div class="tagline">Producent wyrobów gumowych i gumowo-metalowych</div></div></header>
+  <nav class="nav-sticky" aria-label="Nawigacja po sekcjach"><div class="container"><a href="#hero">Start</a><a href="#o-nas">O nas</a><a href="#produkt">Produkt</a><a href="#oferta">Oferta</a><a href="#dlaczego-my">Dlaczego my</a><a href="#kontakt">Kontakt</a></div></nav>
+  <main>
+    <section class="hero" id="hero"><div class="container"><h1>Wyroby gumowe i gumowo-metalowe na zamówienie</h1><p class="lead">Firma z Kraśnika – produkcja detali według specyfikacji klienta oraz własne rozwiązania patentowe.</p></div></section>
+    <section id="o-nas"><div class="container"><h2>O nas</h2><p>Przedsiębiorstwo Produkcyjno Handlowo - Usługowe "DANWAL" Sp. z o. o. to firma z Kraśnika specjalizująca się w produkcji wyrobów gumowych i gumowo-metalowych różnych rodzajów i wymiarów.</p><p>Realizujemy zarówno zamówienia standardowe, jak i produkty wykonywane według specyfikacji klienta. Dysponujemy możliwościami produkcyjnymi pozwalającymi na elastyczne dopasowanie oferty do indywidualnych potrzeb.</p></div></section>
+    <section id="produkt"><div class="container"><h2>Flagowy produkt</h2><div class="product-card"><span class="patent-badge">Patent RP nr 248 477</span><h3>Element mocujący</h3><div class="carousel" data-carousel><div class="carousel-track"><div class="carousel-slide"><img src="static/patent.webp" alt="Dokument patentowy RP nr 248477 – Uchwyt mocujący" loading="lazy"></div><div class="carousel-slide"><img src="static/rzut1.webp" alt="Rysunki techniczne elementu mocującego – widok 1" loading="lazy"></div><div class="carousel-slide"><img src="static/rzut2.webp" alt="Rysunki techniczne elementu mocującego – widok 2" loading="lazy"></div></div><button type="button" class="carousel-btn prev" aria-label="Poprzednie zdjęcie">‹</button><button type="button" class="carousel-btn next" aria-label="Następne zdjęcie">›</button><div class="carousel-dots"><button type="button" class="carousel-dot active" aria-label="Slajd 1" data-index="0"></button><button type="button" class="carousel-dot" aria-label="Slajd 2" data-index="1"></button><button type="button" class="carousel-dot" aria-label="Slajd 3" data-index="2"></button></div><div class="carousel-gallery"><img src="static/patent.webp" alt="Dokument patentowy" data-index="0" class="active" loading="lazy"><img src="static/rzut1.webp" alt="Rysunek 1" data-index="1" loading="lazy"><img src="static/rzut2.webp" alt="Rysunek 2" data-index="2" loading="lazy"></div></div><p>Uchwyt opatentowany w Urzędzie Patentowym RP – uniwersalne mocowanie przedmiotów z samoczynnym zaciskiem.</p><strong>Zastosowanie:</strong><ul><li>Mocowanie różnego rodzaju przedmiotów</li><li>Uchwyty do broni i sprzętu sportowego</li><li>Motoryzacja, gospodarstwo domowe, warsztat</li></ul><strong>Zalety:</strong><ul><li><strong>Samoczynne zaciskanie</strong> – sprężysta wkładka automatycznie dopasowuje uchwyt do włożonego przedmiotu</li><li><strong>Pasek zabezpieczający</strong> – dodatkowe zabezpieczenie przed wysunięciem</li><li><strong>Wysoka funkcjonalność</strong> – niezawodne mocowanie bez regulacji</li></ul><strong>Parametry:</strong><ul><li>Wymiary (a, b, c, d) do uzgodnienia według potrzeb zamawiającego</li><li>Cena w zależności od ilości zamawianych detali</li><li>Możliwość personalizacji rozmiaru i konfiguracji</li></ul></div></div></section>
+    <section id="oferta"><div class="container"><h2>Szersza oferta</h2><p>Produkcja wyrobów gumowych i gumowo-metalowych:</p><ul><li>Detale gumowe o różnych wymiarach i kształtach</li><li>Elementy gumowo-metalowe do zastosowań przemysłowych</li><li>Produkcja na zamówienie według dokumentacji klienta lub próbki</li></ul><p>Zapraszamy do składania zapytań ofertowych – przygotujemy wycenę odpowiednią do Państwa potrzeb i wielkości zamówienia.</p></div></section>
+    <section id="dlaczego-my"><div class="container"><h2>Dlaczego my</h2><div class="why-grid"><div class="why-item"><strong>Produkcja w Polsce</strong>Krótkie terminy realizacji</div><div class="why-item"><strong>Indywidualne podejście</strong>Wymiary i konfiguracja do uzgodnienia</div><div class="why-item"><strong>Własne rozwiązanie patentowe</strong>Sprawdzona technologia</div><div class="why-item"><strong>Bezpośredni kontakt</strong>Wycena i doradztwo bez pośredników</div></div></div></section>
+    <section id="kontakt"><div class="container"><h2>Kontakt</h2><div class="contact-block"><p><strong>PPHU "DANWAL" Sp. z o.o.</strong></p><p>23-204 Kraśnik, ul. Sienkiewicza 58</p><p>NIP: 715-020-10-28</p><p>Tel: <a href="tel:+48603748277">603 748 277</a></p><p>E-mail: <a href="mailto:danwal.sapula@gmail.com">danwal.sapula@gmail.com</a></p><p class="contact-cta">Zapraszamy do kontaktu w sprawie wyceny i współpracy. Odpowiemy w możliwie krótkim czasie.</p></div></div></section>
+  </main>
+  <footer><div class="container"><p>© PPHU "DANWAL" Sp. z o.o. – Kraśnik</p></div></footer>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Powiększony podgląd zdjęcia"><div class="lightbox-content"><button type="button" class="lightbox-close" aria-label="Zamknij">×</button><button type="button" class="lightbox-btn prev" aria-label="Poprzednie zdjęcie">‹</button><img src="" alt="" id="lightbox-img"><button type="button" class="lightbox-btn next" aria-label="Następne zdjęcie">›</button></div></div>
+  <script>
+    (function(){
+      const c=document.querySelector('[data-carousel]');
+      if(!c)return;
+      const t=c.querySelector('.carousel-track'),s=c.querySelectorAll('.carousel-slide'),p=c.querySelector('.carousel-btn.prev'),n=c.querySelector('.carousel-btn.next'),d=c.querySelectorAll('.carousel-dot'),g=c.querySelectorAll('.carousel-gallery img'),lb=document.getElementById('lightbox'),lbImg=document.getElementById('lightbox-img'),lbP=lb.querySelector('.lightbox-btn.prev'),lbN=lb.querySelector('.lightbox-btn.next');
+      let i=0;const tot=s.length;
+      function go(x){i=(x+tot)%tot;t.style.transform='translateX(-'+i*100+'%)';d.forEach((e,j)=>e.classList.toggle('active',j===i));g.forEach((e,j)=>e.classList.toggle('active',j===i))}
+      function up(){lbImg.src=s[i].querySelector('img').src;lbImg.alt=s[i].querySelector('img').alt}
+      function open(){up();lb.classList.add('open');document.body.style.overflow='hidden'}
+      function close(){lb.classList.remove('open');document.body.style.overflow=''}
+      p.addEventListener('click',e=>{e.stopPropagation();go(i-1)});
+      n.addEventListener('click',e=>{e.stopPropagation();go(i+1)});
+      d.forEach((e,j)=>e.addEventListener('click',e=>{e.stopPropagation();go(j)}));
+      g.forEach((e,j)=>e.addEventListener('click',e=>{e.stopPropagation();go(j)}));
+      s.forEach((e,j)=>e.addEventListener('click',()=>{go(j);open()}));
+      lbP.addEventListener('click',e=>{e.stopPropagation();go(i-1);up()});
+      lbN.addEventListener('click',e=>{e.stopPropagation();go(i+1);up()});
+      lb.querySelector('.lightbox-close').onclick=close;
+      lb.addEventListener('click',e=>{if(e.target===lb)close()});
+      document.addEventListener('keydown',e=>{
+        if(!lb.classList.contains('open'))return;
+        if(e.key==='Escape')close();
+        if(e.key==='ArrowLeft'){go(i-1);up()}
+        if(e.key==='ArrowRight'){go(i+1);up()}
+      });
+    })();
+  </script>
+</body>
+</html>
